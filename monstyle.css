@@ -1,0 +1,36 @@
+/*
+Monstyle.css : est leb premier stylec .css que je crée  afin de réaliser ma page personnel
+JJ.Godeme
+-------------
+*/
+
+h1
+{
+  color: blue;
+}
+
+h2
+{
+  color: red;
+}
+p
+{
+  color: black;  /*Les paragraphes sont en couleurs blues */
+}
+
+em
+{
+color: green;
+}
+.abstract_page
+{
+  color: cyan;
+}
+.list_artist
+{
+  color: default;
+}
+.planete
+{
+  color: orange;
+}

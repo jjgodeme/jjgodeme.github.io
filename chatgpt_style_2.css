@@ -1,0 +1,141 @@
+/*css file written with  a huge help of Chat_gpt*/
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+  margin:  0;
+  padding: 0;
+}
+
+header::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('crow_generation/baobabs_tree.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 245px;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  z-index: -1;
+}
+
+header {
+  position: relative;
+  height: 250px;
+  background-clip: content-box;
+  /*backdrop-blur: 100px; /* Blurrer l'image  que l'on met en background, n'est pas supporter pas tout les navigateurs*/
+  /* backdrop-filter: blur(20px);*/
+  color: white;
+  text-align: center;
+  padding: 2em 0;
+}
+
+
+
+header h1 {
+  margin: 0;
+  font-weight: normal;
+}
+
+header h2 {
+  font-weight: normal;
+  margin: 0;
+}
+header h3 {
+  font-weight: lighter;
+  margin: 0;
+}
+header a {
+  float: center;
+  color: white;
+  text-decoration: none;
+  margin-right: 10px; /*Marge entre les différents éléments du header*/
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: none;
+  float: right;
+  margin-top: 1px;
+  color: white;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 0 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  /*margin-left:300px;*/
+  text-align: left;
+}
+
+.container img {
+  float: left;
+  width: 20%;
+  margin-right: 20px;
+}
+
+
+.research-section {
+  background-color: white;
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.research-section:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.research-section h2 {
+  margin: 0;
+}
+
+.research-section p {
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+
+footer {
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  float: left;
+  margin: 0;
+  margin-left: 67px;
+  font-size: 15px;
+}
