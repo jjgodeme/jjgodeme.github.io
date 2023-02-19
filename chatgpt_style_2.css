@@ -4,6 +4,9 @@ body {
   background-color: #f2f2f2;
   margin:  0;
   padding: 0;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
 header::before {
@@ -94,6 +97,7 @@ main {
   margin: 0 auto;
   /*margin-left:300px;*/
   text-align: left;
+  padding-bottom: 2.5rem;
 }
 
 .container img {
@@ -127,15 +131,40 @@ main {
 }
 
 footer {
-  width: 100%;
   background-color: #f2f2f2;
   text-align: center;
-  padding: 20px;
+  padding: 20px 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2.5rem;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 footer p {
-  float: left;
   margin: 0;
-  margin-left: 67px;
   font-size: 15px;
+}
+
+footer > div > p {
+  display: inline-flex;
+  align-items: center;
+}
+
+footer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+footer > div {
+  display: inline-flex;
+  align-items: center;
+}
+
+footer .copyright-and-socials {
+
 }
