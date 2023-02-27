@@ -171,7 +171,7 @@ footer .copyright-and-socials {
 }
 
 /*Ce mode est applicable pour des outils dont la largeur est maximu  700px*/
-@media only screen and (max-width: 700px){
+@media only screen and (max-height: 850px){
 
   header::before {
     content: "";
