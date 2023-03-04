@@ -170,8 +170,18 @@ footer > div {
 footer .copyright-and-socials {
 }
 
-/*Ce mode est applicable pour des outils dont la largeur est maximu  700px*/
-@media only screen and (max-height: 850px){
+/*Ce mode est applicable pour des outils dont la largeur est maximu  700px
+@media only screen and (max-width: 600px){
+  body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f2f2f2;
+    margin:  0;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-size: 16px;
+  }
 
   header::before {
     content: "";
@@ -197,7 +207,7 @@ footer .copyright-and-socials {
     background-clip: content-box;
     /*backdrop-blur: 100px; /* Blurrer l'image  que l'on met en background, n'est pas supporter pas tout les navigateurs*/
     /* backdrop-filter: blur(20px);*/
-    color: white;
+/*    color: white;
     text-align: center;
     padding: 2em 0;
   }
@@ -212,11 +222,11 @@ footer .copyright-and-socials {
 
   header h2 {
     font-weight: 600; /*Semi- bold*/
-    font-size: 16px;
+  /*  font-size: 16px;
     color: black;
     margin: 0;
     /*width: 20px;*/
-  }
+/*  }
   header h3 {
     font-weight: lighter;
     margin: 0;
@@ -227,46 +237,27 @@ footer .copyright-and-socials {
     color: white;
     text-decoration: none;
     margin-right: 5px; /*Marge entre les différents éléments du header*/
-  }
-/*  header h2 a {
-    float: left;
-    color: white;
-    text-decoration: none;
-    margin-right: 5px;
-  } /*Marge entre les différents éléments du header*/
-
-
-  /*Menu navigation de mon fichier */
-  /*nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: none;
-    float: right;
-    margin-top: 1px;
-    color: white;
-    padding: 0;
-  }*/
+/*  }
 
   nav ul {
     list-style: none;
     /*  margin: 0;
     padding: 0;*/
-    position: absolute;
+/*    position: absolute;
     width: 100%;
     top: 90px;
     z-index: 2;
     right: 0px;
     left: 10px;
     /*display: flex;*/
-    font-size: 12px;
+/*    font-size: 12px;
   }
 
 /*  nav li {
     margin: 0 0 1em;
   }
   */
-  nav ul li{
+/*  nav ul li{
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -284,8 +275,8 @@ footer .copyright-and-socials {
   .container {
     max-width: 500px;
     margin: 0 auto;
-    /*margin-left:300px;*/
     text-align: left;
+    padding: 0 1em
     padding-bottom: 2.5rem;
     font-size: 16px;
   }
@@ -361,4 +352,4 @@ footer .copyright-and-socials {
 
 
 
-}
+}*/
